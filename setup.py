@@ -48,6 +48,7 @@ setup(
         'Programming Language :: Python :: 3.10',
     ],
     cmdclass={
+        'update_fa6': setupbase.UpdateFA6Command,
         'update_fa5': setupbase.UpdateFA5Command,
         'update_msc': setupbase.UpdateCodiconCommand,
     },
